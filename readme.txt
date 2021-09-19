@@ -12,7 +12,7 @@
 10. docker-compose exec php-fpm /bin/bash
 11. внутри контейнера: composer install
 12. убедиться, что БД доступна mysql -h database -u symfony -p после логина проверить, что БД books существует
-13. bin/console doctrine:migrations:migrate - выполнить миграцию
+13. bin/console doctrine:migrations:migrate - выполнить миграцию(одна из миграций содержит заливку текстур)
 
 endpoints, вживую можно проверить на моем хостине:
 
