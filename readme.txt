@@ -1,7 +1,7 @@
 1. git clone 
 2. docker-compose build
 3. mkdir src
-4. cp src; cd src
+4. cd src
 5. git clone https://github.com/eurazaliev/bookJsonAPI.git .
 6. cp .env .env.local
 7. в .env.local добавить строку:
